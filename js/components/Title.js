@@ -4,6 +4,7 @@ import styled, {css} from 'styled-components';
 const styleLargeTitle = css`
   font-weight: 400;
   font-size: 1.5em;
+  padding-left: 8%;
 
   @media screen and (min-width: 600px) {
     height: 120px;
@@ -21,6 +22,8 @@ const styleLargeTitle = css`
 const styleSmallTitle = css`
   font-weight: 600;
   font-size: 1.25em;
+  padding-left: 0%;
+  text-align: center;
 
   @media screen and (min-width: 600px) {
     height: 100px;
@@ -38,7 +41,6 @@ const styleSmallTitle = css`
 const StyledTitle = styled.div`
   background-color: #000000;
   color: #ffffff;
-  text-align: center;
   text-transform: uppercase;
   height: 80px;
   line-height: 80px;

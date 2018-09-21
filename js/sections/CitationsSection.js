@@ -46,7 +46,7 @@ const StyledImg = styled.img`
 const CitationsSection = () => (
   <StyledSection>
     <div>
-      <Title large>Wybrane cytaty</Title>
+      <Title>Wybrane cytaty</Title>
       <StyledCitation>"Bóg jest martwy"</StyledCitation>
       <StyledCitation>"Jeśli zbyt długo patrzysz w czeluść, czeluść zaczyna patrzeć na ciebie"</StyledCitation>
       <StyledCitation>"Małżeństwa bywają nieszczęśliwe nie z braku miłości, ale z braku przyjaźni"</StyledCitation>

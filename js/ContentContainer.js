@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import BasicSection from './sections/BasicsSection'
 import CitationsSection from './sections/CitationsSection'
+import ConceptSection from './sections/ConceptSection'
 
 import platon from '../images/platon.png'
 
@@ -88,6 +89,7 @@ const ContentContainer = () => (
     <StyledImg src={platon} alt=""></StyledImg>
     <BasicSection/>
     <CitationsSection/>
+    <ConceptSection/>
   </StyledContainer>
 )
 

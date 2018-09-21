@@ -1,6 +1,7 @@
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
-const FullParagraph = styled.p`
+const StyledParagraph = styled.p`
   font-size: 0.9em;
   padding: 4% 4%;
   line-height: 1.4em;
@@ -16,5 +17,7 @@ const FullParagraph = styled.p`
     padding: 4% 8%;
   }
 `
+
+const FullParagraph = (props) => <StyledParagraph className={props.className}>{props.children}</StyledParagraph>
 
 export default FullParagraph;
