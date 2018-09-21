@@ -5,6 +5,8 @@ import BasicSection from './sections/BasicsSection'
 import CitationsSection from './sections/CitationsSection'
 import ConceptSection from './sections/ConceptSection'
 import NihilismSection from './sections/NihilismSection'
+import FirstVideoSection from './sections/FirstVideoSection'
+import SecondVideoSection from './sections/SecondVideoSection'
 
 import platon from '../images/platon.png'
 
@@ -91,7 +93,9 @@ const ContentContainer = () => (
     <BasicSection/>
     <CitationsSection/>
     <ConceptSection/>
+    <FirstVideoSection/>
     <NihilismSection/>
+    <SecondVideoSection/>
   </StyledContainer>
 )
 
