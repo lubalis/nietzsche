@@ -2,8 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 
 import BasicSection from './sections/BasicsSection'
+import CitationsSection from './sections/CitationsSection'
 
-import statueNietz from '../images/statue-nietz.png'
+import platon from '../images/platon.png'
 
 const StyledContainer = styled.div`
   margin: auto;
@@ -84,8 +85,9 @@ const ContentContainer = () => (
   <StyledContainer>
     <StyledSpanName>Friedrich Wilhelm Nietzsche</StyledSpanName>
     <StyledSpanProfession>filozof, filolog klasyczny, prozaik i poeta</StyledSpanProfession>
-    <StyledImg src={statueNietz} alt=""></StyledImg>
+    <StyledImg src={platon} alt=""></StyledImg>
     <BasicSection/>
+    <CitationsSection/>
   </StyledContainer>
 )
 
