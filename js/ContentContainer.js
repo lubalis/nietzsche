@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import BasicSection from './sections/BasicsSection'
 import CitationsSection from './sections/CitationsSection'
 import ConceptSection from './sections/ConceptSection'
+import NihilismSection from './sections/NihilismSection'
 
 import platon from '../images/platon.png'
 
@@ -90,6 +91,7 @@ const ContentContainer = () => (
     <BasicSection/>
     <CitationsSection/>
     <ConceptSection/>
+    <NihilismSection/>
   </StyledContainer>
 )
 

@@ -5,10 +5,11 @@ const StyledDiv = styled.div`
   border-style: solid;
   border-color: #000000;
   border-width: 0px;
-  margin-bottom: 4%;
+  
   
   @media screen and (min-width: 600px) {
     border-width: 4px;
+    margin-bottom: 4%;
   }
 
   @media screen and (min-width: 1200px) {
