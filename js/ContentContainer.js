@@ -7,7 +7,7 @@ import statueNietz from '../images/statue-nietz.png'
 
 const StyledContainer = styled.div`
   margin: auto;
-  width: 90%;  
+  width: 100%;  
   height: 2000px;
   
   @media screen and (min-width: 600px) {
@@ -15,19 +15,21 @@ const StyledContainer = styled.div`
   }
 
   @media screen and (min-width: 1300px) {
-    width: 1200px;
+    width: 1183px;
   }
 `
 
 const StyledSpanName = styled.div`
   width: 45%;
   padding-top: 5%;
+  padding-left: 4%;
   color: white;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 1.25em;
 
   @media screen and (min-width: 600px) {
+    padding-left: 0%;
     padding-top: 10%;
     font-size: 2em;
   }
@@ -41,12 +43,14 @@ const StyledSpanName = styled.div`
 
 const StyledSpanProfession = styled.div`
   padding-top: 2.5%;
+  padding-left: 4%;
   width: 35%;
   color: white;
   font-weight: 400;
   font-size: 1em;
 
   @media screen and (min-width: 600px) {
+    padding-left: 0%;
     font-size: 1.5em;
   }
 
@@ -58,13 +62,21 @@ const StyledSpanProfession = styled.div`
 
 const StyledImg = styled.img`
   padding-top: 5%;
-  max-width: 25%;
+  padding-left: 4%;
+  max-width: 12%;
+
   @media screen and (min-width: 600px) {
-    padding-top: 7.5%;
+    padding-left: 0%;
   }
 
   @media screen and (min-width: 1200px) {
+    padding-top: 6%;
+    max-width: 20%;
+  }
+
+  @media screen and (min-width: 1600px) {
     padding-top: 12.5%;
+    max-width: 25%;
   }
 `
 

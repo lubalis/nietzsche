@@ -3,13 +3,11 @@ import styled, {css} from 'styled-components';
 
 const styleLargeTitle = css`
   font-weight: 400;
-  height: 100px;
-  line-height: 100px;
   font-size: 1.5em;
 
   @media screen and (min-width: 600px) {
-    height: 150px;
-    line-height: 150px;
+    height: 120px;
+    line-height: 120px;
     font-size: 2em;
   }
 
@@ -22,8 +20,6 @@ const styleLargeTitle = css`
 
 const styleSmallTitle = css`
   font-weight: 600;
-  height: 80px;
-  line-height: 80px;
   font-size: 1.25em;
 
   @media screen and (min-width: 600px) {
@@ -44,6 +40,8 @@ const StyledTitle = styled.div`
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
+  height: 80px;
+  line-height: 80px;
   ${props => props.large ? styleLargeTitle : styleSmallTitle}
 `
 
