@@ -28,11 +28,11 @@ const ContentContainer = () => (
   <StyledContainer>
     <IntroSection/>
     <BasicSection/>
-    {/* <CitationsSection/>
+    <CitationsSection/>
     <ConceptSection/>
     <FirstVideoSection/>
     <NihilismSection/>
-    <SecondVideoSection/> */}
+    <SecondVideoSection/>
     <ProductsSection/>
   </StyledContainer>
 )

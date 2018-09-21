@@ -5,7 +5,8 @@ import ReactPlayer from 'react-player'
 import Section from './Section'
 
 const StyledSection = styled(Section)`
-  background-color: black;
+  background-color: #333333;
+  padding: 1% 0%;
 
   @media screen and (min-width: 600px) {
     background-color: white;
